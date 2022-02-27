@@ -15,9 +15,15 @@ public class circularQueue {
     public circularQueue(int size){
         this.data = new int[size];
     }
+    /* in this we wont check for the end to be equals to length because everytime the end will come atfirst.
+       if there will be an empty space.
+     */
+
     public boolean isFull(){
         return size==data.length;
     }
+
+    // similarly here.
     public boolean isEmpty(){
         return size==0;
     }

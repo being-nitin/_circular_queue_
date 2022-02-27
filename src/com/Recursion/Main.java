@@ -20,5 +20,6 @@ public class Main {
         System.out.println(cr.remove());
         cr.insert(98);
         cr.display();
+        System.out.println(4%5);
     }
 }
